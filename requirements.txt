@@ -1,0 +1,11 @@
+torch
+transformers
+peft
+bitsandbytes
+accelerate
+datasets
+pandas
+scikit-learn
+matplotlib
+seaborn
+trl
