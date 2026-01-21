@@ -6,11 +6,13 @@ The goal was to automate the initial screening of conference papers by generatin
 
 Using **QLoRA (Quantized Low-Rank Adaptation)**, I fine-tuned the model on data from ICLR conferences, focusing on minimizing bias and improving decision accuracy on Out-Of-Distribution (OOD) data.
 
-### 🚀 Key Results
-* **Accuracy Improvement:** The fine-tuned model achieved an accuracy of **41.7%** on the OOD test set (ICLR 2020), significantly outperforming the zero-shot baseline of **30.9%**.
-* **Bias Reduction:** The baseline model was heavily biased towards acceptance (accepting 2199/2203 papers). The QLoRA adaptation successfully corrected this, producing a much more realistic distribution (~1650 Accepts / 546 Rejects).
-* **Efficiency:** Fine-tuning updated only **~1.33%** of parameters, making the training computationally feasible while achieving lower validation loss (2.27 vs 3.0).
+🚀 Key Results (VERSIONE MIGLIORATA)
 
++10.8% accuracy OOD improvement: QLoRA fine-tuned Llama-3.2 3B reaches 41.7% accuracy on ICLR 2020 vs 30.9% zero-shot baseline.
+
+Bias drastically reduced: Baseline model accepted 2199/2203 papers; QLoRA produces a realistic distribution (~1650 Accept / 546 Reject).
+
+Parameter-efficient: Only 1.33% of parameters trained using 4-bit QLoRA; validation loss improved 2.27 → 3.0.
 ---
 
 ### 🧠 Methodology
