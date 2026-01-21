@@ -1,0 +1,24 @@
+# datasets
+*.parquet
+*.csv
+*.jsonl
+*.tsv
+
+# outputs
+lora_json_outputs_es/
+*.jsonl
+outputs/
+runs/
+
+# env / secrets
+.env
+*.env
+config.json
+secrets.*
+
+# python
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+venv/
