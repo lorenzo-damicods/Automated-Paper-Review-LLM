@@ -44,7 +44,7 @@ Evaluation was performed strictly **Out-Of-Distribution (OOD)** using papers fro
 ### 📂 Repository Structure
 * `notebooks/`: Contains the main training and evaluation logic (`Training_and_evaluation.ipynb`).
 * `Training_and_Evaluation/`: Scripts used for cleaning and normalizing the OpenReview dataset.
-* `Automated_Paper_Rewiew/`: Full academic report with detailed analysis and references.
+* `Automated_Paper_Rewiew_Report`: Full academic report with detailed analysis and references.
 
 ### 🔮 Future Work
 * Integration of **SBERT** to better measure semantic similarity between generated and human reviews.
