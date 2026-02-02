@@ -52,11 +52,6 @@ Evaluation was performed strictly **Out-Of-Distribution (OOD)** using papers fro
 * Experimenting with **KL-regularization** on larger, cleaner datasets to better control the teacher distribution.
 * Expanding the training set to include other top-tier conferences (NeurIPS, ICML).
 
-### 🔮 Future Work
-* Integration of **SBERT** to better measure semantic similarity between generated and human reviews.
-* Experimenting with **KL-regularization** on larger, cleaner datasets to better control the teacher distribution.
-* Expanding the training set to include other top-tier conferences (NeurIPS, ICML).
-
 ## Industrialization (planned)
 This repository currently focuses on training and evaluation. A practical next step is to package inference as a reproducible artifact (batch scoring with a stable JSON input/output contract) and, if needed, provide an optional lightweight API layer for integration. Running the full pipeline end-to-end requires access to the license-gated base model, so a public one-click deployment demo is not included.
 
