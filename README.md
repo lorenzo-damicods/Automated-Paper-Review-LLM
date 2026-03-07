@@ -56,7 +56,6 @@ QLoRA gains in lexical specificity (Jaccard, ROUGE, chrF); the baseline retains 
 ├── Baseline_Training_and_Evaluation.ipynb    # Full pipeline: baseline → QLoRA → KL → eval
 │                                             # Pre-computed outputs included; GPU needed to re-run
 ├── confusion_matrix.py                       # Confusion matrix plotting (standalone)
-├── figures/                                  # All plots used in the report
 ├── review_similarity_metrics.csv             # Full lexical + semantic similarity results (504 KB)
 ├── rougeL_pairs.csv                          # ROUGE-L pairwise scores: human vs. generated (84 KB)
 ├── report_introduction_to_ml_LORENZO_D_AMICO_238684.pdf
